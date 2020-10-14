@@ -7,14 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Container>
-          <Row>
-            <Col className="columns">About</Col>
-            <Col className="columns">Projects</Col>
-          </Row>
-        </Container>
-      </header>
+      <Container className="container">
+        <Row className="rows">
+          <Col className="columns col-one">About</Col>
+          <Col xs={8} className="columns col-two">Projects</Col>
+        </Row>
+      </Container>
     </div>
   );
 }

@@ -1,15 +1,36 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.App {
+  text-align: center;
+  border: solid red;
+}
+
+.container{
+  border: solid purple;
+  margin: 0;
+  display: inline-block;
+}
+
+.rows {
+  border: solid green;
+  margin: 0%;
 }
 
 .columns {
-  border: solid black;
+  margin: 0;
+  border: dotted black;
 }
+
+.col-one {
+  background-color: lavender;
+  padding: 20%;
+}
+
+.col-two {
+  padding: 20%;
+}
+
+
