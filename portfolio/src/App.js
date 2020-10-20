@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Container, Row, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-      <Container className="container">
-        <Row className="rows">
-          <Col className="columns col-one">About</Col>
-          <Col xs={8} className="columns col-two">Projects</Col>
-        </Row>
-      </Container>
+      <div className="bigBox">
+        <div className='leftBox'>
+            <h1>Left Box</h1>
+        </div>
+        <div className="rightBox">
+            <h1>Right Box</h1>
+        </div>
+      </div>
     </div>
   );
 }

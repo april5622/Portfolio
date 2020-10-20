@@ -1,36 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .App {
   text-align: center;
   border: solid red;
 }
 
-.container{
-  border: solid purple;
-  margin: 0;
-  display: inline-block;
+.bigBox{
+  display: flex;
+  justify-content: center;
+  border: 2px solid yellow;
+
 }
 
-.rows {
-  border: solid green;
-  margin: 0%;
+.leftBox{
+  width: 50%;
+  height: 100vh;
+  border: 2px solid green;
 }
 
-.columns {
-  margin: 0;
-  border: dotted black;
+.rightBox{
+  width: 50%;
+  height: 100vh;
+  border: 2px solid blue
 }
-
-.col-one {
-  background-color: lavender;
-  padding: 20%;
-}
-
-.col-two {
-  padding: 20%;
-}
-
-
