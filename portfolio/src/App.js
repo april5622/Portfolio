@@ -16,7 +16,7 @@ function App() {
                 </a>
         </div>
         <div className="rightBox">
-            <h1>Right Box</h1>
+            <h1>About</h1>
         </div>
       </div>
     </div>
