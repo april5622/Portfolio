@@ -31,3 +31,9 @@ h1{
 a.github {
   color: black;
 }
+
+img{
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
