@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function ProjectsPage() {
     return (
@@ -8,7 +10,7 @@ function ProjectsPage() {
                 <Link className="Home" to="/">Home</Link>
                 <Link className="Projects" to="/projects">Projects</Link>
             </div>
-            <h2>Projects</h2>
+            <h2>Check out what I've worked on</h2>
             <div className="project-1">
                 <h3>Title</h3>
                 <p className="project-card-1">
@@ -21,6 +23,9 @@ function ProjectsPage() {
                     non proident, sunt in culpa qui officia deserunt mollit anim id 
                     est laborum.
                 </p>
+                <a href="https://github.com/april5622/" className="github-project icon">
+                    <FontAwesomeIcon icon={faGithub} size="1x" />
+                </a>
             </div>
             <div className="project-2">
                 <h3>Title</h3>
@@ -34,6 +39,9 @@ function ProjectsPage() {
                     non proident, sunt in culpa qui officia deserunt mollit anim id 
                     est laborum.
                 </p>
+                <a href="https://github.com/april5622/" className="github-project icon">
+                    <FontAwesomeIcon icon={faGithub} size="1x" />
+                </a>
             </div>
             <div className="project-3">
                 <h3>Title</h3>
@@ -47,6 +55,9 @@ function ProjectsPage() {
                     non proident, sunt in culpa qui officia deserunt mollit anim id 
                     est laborum.
                 </p>
+                <a href="https://github.com/april5622/" className="github-project icon">
+                    <FontAwesomeIcon icon={faGithub} size="1x" />
+                </a>
             </div>
         </div>
     )
