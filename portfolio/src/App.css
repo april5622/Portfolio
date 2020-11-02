@@ -6,9 +6,10 @@
 .ProjectPage{
   width: 100%;
   height: 100vh;
-  background-color: #2a5591;
+  background: url('../src/img/background-pic.jpg') no-repeat center;
+  background-size: 100%;
+  /* background-color: #2a5591; */
 }
-
 
 .bigBox{
   display: flex;
@@ -18,7 +19,9 @@
 .leftBox{
   width: 50%;
   height: 100vh;
-  background-color: #2a5591;
+  /* background-color: #2a5591; */
+  background: url('../src/img/background-pic.jpg') no-repeat center;
+  background-size: 100%;
 }
 
 .nav{
@@ -28,21 +31,27 @@
 
 .Home {
   color: white;
+  background-color: rgba(154, 154, 152, 0.83);
+  border-radius: 50px;
+  padding: 0 1% 0 1%;
   margin-top: 1%;
 }
 
 .Home:hover{
-  color: gray;
+  color:gray;
   text-decoration: none;
 }
 
 .Projects {
   color: white;
+  background-color: rgba(154, 154, 152, 0.83);
+  border-radius: 50px;
+  padding: 0 1% 0 1%;
   margin-top: 1%;
 }
 
 .Projects:hover{
-  color: gray;
+  color:gray;
   text-decoration: none;
 }
 
@@ -53,10 +62,12 @@ h1{
 h1.april{
   padding: 0%;
   color: white;
+  text-shadow: 1px 1px black;
 }
 
 h2{
   color: white;
+  text-shadow: 1px 1px black;
   margin: 2%;
   text-decoration: underline;
 }
@@ -91,35 +102,39 @@ img{
   margin-left: 3%;
 }
 
+/* .project-cards{
+  display: flex;
+} */
+
 .project-1{
-  border: double white;
-  border-radius: 20px;
-  background-color: #2a5591;
+  /* border: double white; */
+  border-radius: 0 100px 100px 0;
+  background-color: rgba(154, 154, 152, 0.83);
   color:white;
   margin-right: 3%;
-  margin-left: 3%;
+  /* margin-left: 3%; */
   margin-bottom: 2%;
   padding: 1%;
 }
 
 .project-2{
-  border: double white;
-  border-radius: 20px;
-  background-color:#2a5591;
+  /* border: double white; */
+  border-radius: 100px 0 0 100px;
+  background-color: rgba(154, 154, 152, 0.83);
   color: white;
-  margin-right: 3%;
+  /* margin-right: 3%; */
   margin-left: 3%;
   margin-bottom: 2%;
   padding: 1%;
 }
 
 .project-3{
-  border: double white;
-  border-radius: 20px;
-  background-color: #2a5591;
+  /* border: double white; */
+  border-radius: 0 100px 100px 0;
+  background-color: rgba(154, 154, 152, 0.83);
   color: white;
   margin-right: 3%;
-  margin-left: 3%;
+  /* margin-left: 3%; */
   margin-bottom: 2%;
   padding: 1%;
 }

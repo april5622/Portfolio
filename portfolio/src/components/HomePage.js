@@ -16,7 +16,7 @@ function HomePage() {
                 <Link className="Projects" to="/projects">Projects</Link>
             </div>
           <div className="text-wrap">
-            <h1 className="april">April</h1>
+            <h1 className="april">APRIL</h1>
           </div>
           <img classname="pic" src={pic} alt="pic"/>
           <div className="icon-div">
