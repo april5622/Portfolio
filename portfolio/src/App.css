@@ -31,9 +31,19 @@
   margin-top: 1%;
 }
 
+.Home:hover{
+  color: gray;
+  text-decoration: none;
+}
+
 .Projects {
   color: white;
   margin-top: 1%;
+}
+
+.Projects:hover{
+  color: gray;
+  text-decoration: none;
 }
 
 h1{
@@ -45,6 +55,12 @@ h1.april{
   color: white;
 }
 
+h2{
+  color: white;
+  margin: 2%;
+  text-decoration: underline;
+}
+
 .icon-div{
   margin-top: 2%;
 }
@@ -53,10 +69,15 @@ a.github {
   color: white;
 }
 
+a.github:hover {
+  color:gray;
+}
+
 img{
   width: 15%;
   height: auto;
   border-radius: 50%;
+  border: double white;
   /* margin-top: 40%; */
 }
 
@@ -71,27 +92,45 @@ img{
 }
 
 .project-1{
-  border: solid black;
-  color: white;
+  border: double white;
+  border-radius: 20px;
+  background-color: #2a5591;
+  color:white;
   margin-right: 3%;
   margin-left: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
+  padding: 1%;
 }
 
 .project-2{
-  border: solid black;
+  border: double white;
+  border-radius: 20px;
+  background-color:#2a5591;
   color: white;
   margin-right: 3%;
   margin-left: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
+  padding: 1%;
 }
 
 .project-3{
-  border: solid black;
+  border: double white;
+  border-radius: 20px;
+  background-color: #2a5591;
   color: white;
   margin-right: 3%;
   margin-left: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
+  padding: 1%;
 }
+
+a.github-project {
+  color: white;
+}
+
+a.github-project:hover {
+  color:gray;
+}
+
 
 
