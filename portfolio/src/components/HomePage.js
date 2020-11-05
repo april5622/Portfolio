@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import pic from "../img/pic.png";
 
 function HomePage() {
@@ -26,19 +26,24 @@ function HomePage() {
             <a href="https://github.com/april5622/" className="github icon">
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
+            <a href="https://www.linkedin.com/in/aprilma-sf/" className="linkedin icon">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
           </div>
         </div>
         <div className="rightBox">
-          <h1>HELLO!</h1>
-          <p className="about-me">
-            ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div className="right-text-box">
+            <h1 className="Hello">HELLO!</h1>
+            <p className="about-me">
+                ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>  
         </div>
       </div>
     </div>
