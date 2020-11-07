@@ -35,13 +35,13 @@ function HomePage() {
           <div className="right-text-box">
             <h1 className="Hello">HELLO!</h1>
             <p className="about-me">
-                ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                I'm April and I'm a Full Stack Developer from the Bay Area.
+                I graduated from university with a physiology degree but decided to
+                explore other interest in my life. And that's where tech came along!
+                I've been studying web development for a little over a year and I've 
+                gotten to build some fun applications. Now, I am committed to 
+                improving my skills as a developer and creating technology that will
+                benefit others. 
             </p>
           </div>  
         </div>
