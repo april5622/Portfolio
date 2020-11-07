@@ -17,7 +17,7 @@ function ProjectsPage() {
       <h2>Check out what I've worked on</h2>
       <div className="project-cards">
         <div className="project-1">
-          <h3>Title</h3>
+          <h3>Secret Family Recipes</h3>
           <p className="project-card-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -35,7 +35,7 @@ function ProjectsPage() {
           </a>
         </div>
         <div className="project-2">
-          <h3>Title</h3>
+          <h3>Conway's Game of Life</h3>
           <p className="project-card-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -53,7 +53,7 @@ function ProjectsPage() {
           </a>
         </div>
         <div className="project-3">
-          <h3>Title</h3>
+          <h3>Crytocurrency Tracker with Dark Mode</h3>
           <p className="project-card-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
