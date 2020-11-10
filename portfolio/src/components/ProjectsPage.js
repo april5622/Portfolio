@@ -17,7 +17,7 @@ function ProjectsPage() {
       <h2>Check out what I've worked on</h2>
       <div className="project-cards">
         <div className="project-1">
-          <h3>Title</h3>
+          <h3>Secret Family Recipes</h3>
           <p className="project-card-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -28,14 +28,14 @@ function ProjectsPage() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <a
-            href="https://github.com/april5622/"
+            href="https://github.com/PTCT-Chef-Portfolio-1/FE"
             className="github-project icon"
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
           </a>
         </div>
         <div className="project-2">
-          <h3>Title</h3>
+          <h3>Conway's Game of Life</h3>
           <p className="project-card-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -46,14 +46,14 @@ function ProjectsPage() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <a
-            href="https://github.com/april5622/"
+            href="https://github.com/april5622/conways-game-of-life"
             className="github-project icon"
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
           </a>
         </div>
         <div className="project-3">
-          <h3>Title</h3>
+          <h3>Crytocurrency Tracker with Dark Mode</h3>
           <p className="project-card-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -64,7 +64,7 @@ function ProjectsPage() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <a
-            href="https://github.com/april5622/"
+            href="https://github.com/april5622/dark-mode"
             className="github-project icon"
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
