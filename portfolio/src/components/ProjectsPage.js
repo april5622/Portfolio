@@ -28,7 +28,7 @@ function ProjectsPage() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <a
-            href="https://github.com/april5622/"
+            href="https://github.com/PTCT-Chef-Portfolio-1/FE"
             className="github-project icon"
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
@@ -46,7 +46,7 @@ function ProjectsPage() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <a
-            href="https://github.com/april5622/"
+            href="https://github.com/april5622/conways-game-of-life"
             className="github-project icon"
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
@@ -64,7 +64,7 @@ function ProjectsPage() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <a
-            href="https://github.com/april5622/"
+            href="https://github.com/april5622/dark-mode"
             className="github-project icon"
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
