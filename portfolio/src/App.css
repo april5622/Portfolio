@@ -153,13 +153,13 @@ a.github-project:hover {
   text-decoration: none;
 }
 
-.project-pic-div-main{
+.project-pic-div-main {
   display: flex;
   justify-content: center;
   padding: 0%;
 }
 
-.project-pic-div{
+.project-pic-div {
   margin: 0%;
   padding: 0%;
   width: 10%;
@@ -172,7 +172,6 @@ img.project-pic {
   object-fit: cover;
   width: 50%;
 }
-
 
 @media (max-width: 1250px) {
   .bigBox {
@@ -195,7 +194,7 @@ img.project-pic {
     margin-top: 40%;
   }
 
-  img {
+  img.pic {
     width: 15%;
     height: auto;
     border-radius: 50%;
@@ -273,7 +272,7 @@ img.project-pic {
     margin-top: 10%;
   }
 
-  img {
+  img.pic {
     width: 25%;
     height: auto;
     border-radius: 50%;

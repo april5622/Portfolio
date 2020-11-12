@@ -32,7 +32,7 @@ function ProjectsPage() {
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
           </a>
-        <FamilyRecipes/>
+          <FamilyRecipes />
         </div>
 
         <div className="project-2">
@@ -49,7 +49,7 @@ function ProjectsPage() {
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
           </a>
-        <GameOfLife/>
+          <GameOfLife />
         </div>
 
         <div className="project-3">
@@ -65,8 +65,8 @@ function ProjectsPage() {
           >
             <FontAwesomeIcon icon={faGithub} size="1x" />
           </a>
-          <DarkMode/>
-        </div> 
+          <DarkMode />
+        </div>
       </div>
     </div>
   );
