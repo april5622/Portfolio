@@ -173,6 +173,8 @@ img.project-pic {
   width: 50%;
 }
 
+/* TABLET MODE */
+
 @media (max-width: 1250px) {
   .bigBox {
     display: block;
@@ -219,14 +221,31 @@ img.project-pic {
     margin-left: 10%;
   }
 
+  .ProjectPage {
+    width: 100%;
+    height: auto;
+    background: url("../src/img/background-pic.jpg") repeat-y;
+    background-size: 100%;
+  }
+
   h2 {
     margin-top: 5%;
   }
 
   .project-cards {
-    margin-top: 10%;
+    margin-top: 5%;
+  }
+
+  .project-pic-div {
+    width: 20%;
+  }
+
+  img.project-pic {
+    width: 50%;
   }
 }
+
+/* SMARTPHONE MODE */
 
 @media (max-width: 600px) {
   .leftBox {
@@ -316,5 +335,13 @@ img.project-pic {
 
   .project-3 {
     padding: 5%;
+  }
+
+  .project-pic-div {
+    width: 50%;
+  }
+
+  img.project-pic {
+    width: 60%;
   }
 }
