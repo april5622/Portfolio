@@ -5,27 +5,30 @@ import HomePage from "./components/HomePage";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import styled from "styled-components";
 import { Switch, Route, withRouter } from "react-router-dom";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 function App({ location }) {
   return (
-    <Wrapper>
-      <TransitionGroup className="transition-group">
-        <CSSTransition
-          key={location.key}
-          timeout={{ enter: 300, exit: 300 }}
-          classNames={"fade"}
-        >
-          <div className="route-div">
-            <div className="App">
-              <Switch location={location}>
-                <Route path="/projects" component={ProjectsPage}/>
-                <Route path="/" component={HomePage}/>
-              </Switch>
+    <SimpleReactLightbox>
+      <Wrapper>
+        <TransitionGroup className="transition-group">
+          <CSSTransition
+            key={location.key}
+            timeout={{ enter: 300, exit: 300 }}
+            classNames={"fade"}
+          >
+            <div className="route-div">
+              <div className="App">
+                <Switch location={location}>
+                  <Route path="/projects" component={ProjectsPage} />
+                  <Route exact-path="/" component={HomePage} />
+                </Switch>
+              </div>
             </div>
-          </div>
-        </CSSTransition>
-      </TransitionGroup>
-    </Wrapper>
+          </CSSTransition>
+        </TransitionGroup>
+      </Wrapper>
+    </SimpleReactLightbox>
   );
 }
 
