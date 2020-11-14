@@ -67,6 +67,7 @@ function ProjectsPage() {
           </a>
           <DarkMode />
         </div>
+        <p className="project-copyright">&copy; April Ma 2020</p>
       </div>
     </div>
   );

@@ -33,6 +33,7 @@ function HomePage() {
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
+          <p className="copyright">&copy; April Ma 2020</p>
         </div>
         <div className="rightBox">
           <div className="right-text-box">
