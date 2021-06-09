@@ -7,9 +7,9 @@ function DarkMode() {
         <div className="leftProjectBox">
           <h3>Secret Family Recipes</h3>
           <p className="about-me">
-            Secret Family Recipes Cookbook is a React web application that
-            allows users to store and save their family recipe and never forget
-            them. HTML/CSS | Javascript | React | Redux | Node.js
+            A crytocurrency tracker app that uses custom hooks that will allow
+            users to set and persist a dark mode preference. HTML/CSS |
+            Javascript | React
           </p>
         </div>
 
