@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function DarkMode() {
   return (
@@ -11,6 +13,12 @@ function DarkMode() {
             users to set and persist a dark mode preference. HTML/CSS |
             Javascript | React
           </p>
+          <a
+            href="https://github.com/april5622/dark-mode"
+            className="github-project icon"
+          >
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
         </div>
 
         <div className="rightProjectBox-dark">

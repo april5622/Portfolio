@@ -144,6 +144,15 @@ h3 {
   background-color:  #1F2022;
 }
 
+/* PROJECT PAGE GITHUB LINK */
+
+a.github-project {
+  color: black;
+}
+
+a.github-project:hover {
+  color: gray;
+}
 
 
 /* COPYRIGHTS */
@@ -167,47 +176,6 @@ h3 {
 }
 
 
-
-
-/* PROJECT PAGE GITHUB LINK */
-
-/* a.github-project {
-  color: white;
-}
-
-a.github-project:hover {
-  color: gray;
-}
-
-.project-links {
-  font-size: 1.5rem;
-  color: white;
-}
-
-.project-links:hover {
-  color: gray;
-  text-decoration: none;
-}
-
-.project-pic-div-main {
-  display: flex;
-  justify-content: center;
-  padding: 0%;
-}
-
-.project-pic-div {
-  margin: 0%;
-  padding: 0%;
-  width: 10%;
-}
-
-img.project-pic {
-  border-radius: 0%;
-  border: double white;
-  margin: 0.5%;
-  object-fit: cover;
-  width: 50%;
-} */
 
 /* TABLET MODE
 

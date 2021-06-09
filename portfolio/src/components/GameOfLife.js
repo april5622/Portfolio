@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -20,6 +22,12 @@ function GameOfLife() {
               based on a few mathematical rules, can live, die or multiply.
               HTML/CSS | Javascript | React
             </p>
+            <a
+            href="https://github.com/april5622/conways-game-of-life"
+            className="github-project icon"
+          >
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
           </div>
         </div>
       </div>
