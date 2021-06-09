@@ -1,20 +1,26 @@
 import React from "react";
-import { SRLWrapper } from "simple-react-lightbox";
-import darkmode1 from "../img/darkmode1.png";
-import darkmode2 from "../img/darkmode2.png";
 
 function DarkMode() {
   return (
-    <SRLWrapper>
-      <div className="project-pic-div-main">
-        <div className="project-pic-div">
-          <img className="project-pic" src={darkmode1} alt="Light Mode" />
+    <div id="darkmode-page">
+      <div className="bigBox">
+        <div className="leftProjectBox">
+          <h3>Secret Family Recipes</h3>
+          <p className="about-me">
+            Secret Family Recipes Cookbook is a React web application that
+            allows users to store and save their family recipe and never forget
+            them. HTML/CSS | Javascript | React | Redux | Node.js
+          </p>
         </div>
-        <div className="project-pic-div">
-          <img className="project-pic" src={darkmode2} alt="Dark Mode" />
+
+        <div className="rightProjectBox-dark">
+          <div className="right-text-box">
+            <div className="text-wrap">
+            </div>
+          </div>
         </div>
       </div>
-    </SRLWrapper>
+    </div>
   );
 }
 

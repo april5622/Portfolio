@@ -9,14 +9,7 @@ import DarkMode from "./DarkMode";
 function ProjectsPage() {
   return (
     <div className="ProjectPage">
-      <div className="nav">
-        <Link className="Home" to="/">
-          Home
-        </Link>
-        <Link className="Projects" to="/projects">
-          Projects
-        </Link>
-      </div>
+      <div className="nav"></div>
       <h2>Check out what I've worked on</h2>
       <div className="project-cards">
         <div className="project-1">
@@ -67,7 +60,6 @@ function ProjectsPage() {
           </a>
           <DarkMode />
         </div>
-        <p className="project-copyright">&copy; April Ma 2020</p>
       </div>
     </div>
   );

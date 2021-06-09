@@ -3,72 +3,44 @@
   font-family: "Lato", sans-serif;
 }
 
-.copyright {
-  color: white;
+/* NAV BAR */
+.nav {
   position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 50%;
-  text-align: center;
+  margin-top: 3px;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.project-copyright{
-  color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+/* .nav > .active{
+  border-bottom: 10px solid black;
+} */
+
+.nav-button{
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.5%;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px black
+
+
 }
 
-.ProjectPage {
-  width: 100%;
-  height: 100vh;
-  background: url("../src/img/background-pic.jpg") no-repeat center;
-  background-size: 100%;
-}
+/* HOME PAGE */
 
 .bigBox {
   display: flex;
   justify-content: center;
 }
 
+/* LEFT SIDE TO HOMEPAGE */
+
 .leftBox {
   width: 50%;
   height: 100vh;
   background: url("../src/img/background-pic.jpg") no-repeat center;
   background-size: 100%;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.Home {
-  color: white;
-  background-color: rgba(154, 154, 152, 0.83);
-  border-radius: 50px;
-  padding: 0 1% 0 1%;
-  margin-top: 1%;
-}
-
-.Home:hover {
-  color: gray;
-  text-decoration: none;
-}
-
-.Projects {
-  color: white;
-  background-color: rgba(154, 154, 152, 0.83);
-  border-radius: 50px;
-  padding: 0 1% 0 1%;
-  margin-top: 1%;
-}
-
-.Projects:hover {
-  color: gray;
-  text-decoration: none;
 }
 
 h1 {
@@ -116,44 +88,90 @@ img.pic {
   border: double white;
 }
 
+/* RIGHTSIDE TO HOMEPAGE */
+
 .rightBox {
   width: 50%;
   height: 100vh;
 }
+
+/* ABOUT ME */
 
 .about-me {
   margin-right: 3%;
   margin-left: 3%;
 }
 
-.project-1 {
-  border-radius: 0 100px 100px 0;
-  background-color: rgba(154, 154, 152, 0.83);
-  color: white;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  padding: 1%;
+/* PROJECT PAGES */
+
+.ProjectPage {
+  width: 100%;
+  height: 100vh;
+  /* background: url("../src/img/background-pic.jpg") no-repeat center; */
+  background-size: 100%;
 }
 
-.project-2 {
-  border-radius: 100px 0 0 100px;
-  background-color: rgba(154, 154, 152, 0.83);
-  color: white;
-  margin-left: 3%;
-  margin-bottom: 2%;
-  padding: 1%;
+h3 {
+  margin-top: 30%;
 }
 
-.project-3 {
-  border-radius: 0 100px 100px 0;
-  background-color: rgba(154, 154, 152, 0.83);
-  color: white;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  padding: 1%;
+.leftProjectBox {
+  width: 50%;
+  height: 100vh;
 }
 
-a.github-project {
+.leftBox-game {
+  width: 50%;
+  height: 100vh;
+  background: url("../src/img/gameoflife1.png") no-repeat center;
+  background-size: 100%;
+  background-color: #F0D2D1;
+}
+
+.rightProjectBox-fam{
+  width: 50%;
+  height: 100vh;
+  background: url("../src/img/familyrecipe2.png") no-repeat center;
+  background-size: 100%;
+  background-color: #ECDEC3;
+}
+
+.rightProjectBox-dark{
+  width: 50%;
+  height: 100vh;
+  background: url("../src/img/darkmode2.png") no-repeat center;
+  background-size: 100%;
+  background-color:  #1F2022;
+}
+
+
+
+/* COPYRIGHTS */
+
+.left-copyright {
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  text-align: center;
+}
+
+.right-copyright {
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+
+/* PROJECT PAGE GITHUB LINK */
+
+/* a.github-project {
   color: white;
 }
 
@@ -189,9 +207,9 @@ img.project-pic {
   margin: 0.5%;
   object-fit: cover;
   width: 50%;
-}
+} */
 
-/* TABLET MODE */
+/* TABLET MODE
 
 @media (max-width: 1250px) {
   .bigBox {
@@ -265,7 +283,7 @@ img.project-pic {
 
 /* SMARTPHONE MODE */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .leftBox {
     width: 100%;
     height: 100%;
@@ -362,4 +380,4 @@ img.project-pic {
   img.project-pic {
     width: 60%;
   }
-}
+} */

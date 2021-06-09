@@ -1,36 +1,29 @@
 import React from "react";
-import { SRLWrapper } from "simple-react-lightbox";
-import gameoflife1 from "../img/gameoflife1.png";
-import gameoflife2 from "../img/gameoflife2.png";
-import gameoflife3 from "../img/gameoflife3.png";
+
+
 
 function GameOfLife() {
   return (
-    <SRLWrapper>
-      <div className="project-pic-div-main">
-        <div className="project-pic-div">
-          <img
-            className="project-pic"
-            src={gameoflife1}
-            alt="Grid size in small"
-          />
+    <div id="game-of-life-page">
+      <div className="bigBox">
+        <div className="leftBox-game">
+          <div className="text-wrap">
+          </div> 
         </div>
-        <div className="project-pic-div">
-          <img
-            className="project-pic"
-            src={gameoflife2}
-            alt="Grid size in medium"
-          />
-        </div>
-        <div className="project-pic-div">
-          <img
-            className="project-pic"
-            src={gameoflife3}
-            alt="Allowing Users to set up initial cell configuration"
-          />
+
+        <div className="rightBox">
+          <div className="right-text-box">
+            <h3>Conway's Game of Life</h3>
+            <p className="about-me">
+              Conway’s Game of Life is a computer classic program that simulates
+              cellular automation. It consists of a collection of cells which,
+              based on a few mathematical rules, can live, die or multiply.
+              HTML/CSS | Javascript | React
+            </p>
+          </div>
         </div>
       </div>
-    </SRLWrapper>
+    </div>
   );
 }
 

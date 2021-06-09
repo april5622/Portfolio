@@ -1,23 +1,16 @@
 import React from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import pic from "../img/pic.png";
 
 function HomePage() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <div className="bigBox">
         <div className="leftBox">
-          <div className="nav">
-            <Link className="Home" to="/">
-              Home
-            </Link>
-            <Link className="Projects" to="/projects">
-              Projects
-            </Link>
-          </div>
           <div className="text-wrap">
             <h1 className="april">APRIL</h1>
           </div>
@@ -33,7 +26,7 @@ function HomePage() {
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
-          <p className="copyright">&copy; April Ma 2020</p>
+          <p className="left-copyright">&copy; April Ma 2021</p>
         </div>
         <div className="rightBox">
           <div className="right-text-box">
@@ -47,6 +40,7 @@ function HomePage() {
               committed to improving my skills as a developer and creating
               technology that will benefit others.
             </p>
+            <p className="right-copyright">&copy; April Ma 2021</p>
           </div>
         </div>
       </div>
